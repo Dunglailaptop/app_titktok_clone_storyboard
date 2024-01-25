@@ -1,0 +1,391 @@
+PODS:
+  - Alamofire (5.8.1)
+  - BmoViewPager (5.2.0)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - DACircularProgress (2.3.1)
+  - Differentiator (5.0.0)
+  - Firebase/Auth (10.19.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 10.19.0)
+  - Firebase/Core (10.19.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.19.0)
+  - Firebase/CoreOnly (10.19.0):
+    - FirebaseCore (= 10.19.0)
+  - Firebase/Database (10.19.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 10.19.0)
+  - Firebase/Storage (10.19.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 10.19.0)
+  - FirebaseAnalytics (10.19.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.19.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.19.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.19.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAppCheckInterop (10.19.0)
+  - FirebaseAuth (10.19.0):
+    - FirebaseAppCheckInterop (~> 10.17)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+    - RecaptchaInterop (~> 100.0)
+  - FirebaseAuthInterop (10.19.0)
+  - FirebaseCore (10.19.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreExtension (10.19.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.19.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseDatabase (10.19.0):
+    - FirebaseAppCheckInterop (~> 10.17)
+    - FirebaseCore (~> 10.0)
+    - FirebaseSharedSwift (~> 10.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstallations (10.19.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseSharedSwift (10.19.0)
+  - FirebaseStorage (10.19.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - FSCalendar (2.8.4)
+  - FSPagerView (0.8.3)
+  - GoogleAppMeasurement (10.19.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.19.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.19.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.19.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.19.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleMaps (8.3.0):
+    - GoogleMaps/Maps (= 8.3.0)
+  - GoogleMaps/Base (8.3.0)
+  - GoogleMaps/Maps (8.3.0):
+    - GoogleMaps/Base
+  - GooglePlaces (8.3.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.12.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.12.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.12.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.12.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.12.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.12.0)"
+  - GoogleUtilities/Reachability (7.12.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.12.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (3.2.0)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - iOSDropDown (0.4.0)
+  - IQKeyboardManager (6.5.16)
+  - JGProgressHUD (2.2)
+  - JonAlert (1.0.0)
+  - Kingfisher (7.10.2)
+  - leveldb-library (1.22.2)
+  - LNICoverFlowLayout (2.0.0)
+  - MarqueeLabel (4.4.0)
+  - MBProgressHUD (0.9.2)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - nanopb (2.30909.1):
+    - nanopb/decode (= 2.30909.1)
+    - nanopb/encode (= 2.30909.1)
+  - nanopb/decode (2.30909.1)
+  - nanopb/encode (2.30909.1)
+  - ObjectMapper (4.2.0)
+  - OTPFieldView (1.0.1)
+  - PagingCollectionViewLayout (0.0.4)
+  - PromisesObjC (2.3.1)
+  - QVRWeekView (0.14.1)
+  - Realm (10.45.3):
+    - Realm/Headers (= 10.45.3)
+  - Realm/Headers (10.45.3)
+  - RealmSwift (10.45.3):
+    - Realm (= 10.45.3)
+  - RecaptchaInterop (100.0.0)
+  - RxBinding (0.5):
+    - RxCocoa (~> 6)
+    - RxSwift (~> 6)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - RxSwiftExt (6.2.1):
+    - RxSwiftExt/Core (= 6.2.1)
+    - RxSwiftExt/RxCocoa (= 6.2.1)
+  - RxSwiftExt/Core (6.2.1):
+    - RxSwift (~> 6.0)
+  - RxSwiftExt/RxCocoa (6.2.1):
+    - RxCocoa (~> 6.0)
+    - RxSwiftExt/Core
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - SKPhotoBrowser (7.1.0)
+  - SnapKit (5.6.0)
+  - Socket.IO-Client-Swift (16.1.0):
+    - Starscream (~> 4.0.6)
+  - SocketRocket (0.7.0)
+  - SpreadsheetView (0.9.1)
+  - SquareFlowLayout (0.0.1)
+  - Starscream (4.0.6)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftSignalRClient (1.1.0)
+  - TagListView (1.4.1)
+  - VerticalCardSwiper (2.3.1)
+  - youtube-ios-player-helper (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - BmoViewPager
+  - Charts
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Storage
+  - FSCalendar
+  - FSPagerView
+  - GoogleMaps (= 8.3.0)
+  - GooglePlaces (= 8.3.0)
+  - iOSDropDown
+  - IQKeyboardManager
+  - JGProgressHUD
+  - JonAlert
+  - Kingfisher
+  - LNICoverFlowLayout
+  - MarqueeLabel
+  - MessageKit
+  - Moya
+  - Moya/RxSwift
+  - MWPhotoBrowser
+  - ObjectMapper
+  - OTPFieldView
+  - PagingCollectionViewLayout
+  - QVRWeekView
+  - RealmSwift
+  - RxBinding
+  - RxCocoa
+  - RxDataSources
+  - RxGesture
+  - RxSwift
+  - RxSwiftExt
+  - SDWebImage
+  - SKPhotoBrowser
+  - SnapKit
+  - Socket.IO-Client-Swift
+  - SocketRocket
+  - SpreadsheetView
+  - SquareFlowLayout
+  - SwiftSignalRClient
+  - TagListView
+  - VerticalCardSwiper
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BmoViewPager
+    - Charts
+    - DACircularProgress
+    - Differentiator
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseDatabase
+    - FirebaseInstallations
+    - FirebaseSharedSwift
+    - FirebaseStorage
+    - FSCalendar
+    - FSPagerView
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - InputBarAccessoryView
+    - iOSDropDown
+    - IQKeyboardManager
+    - JGProgressHUD
+    - JonAlert
+    - Kingfisher
+    - leveldb-library
+    - LNICoverFlowLayout
+    - MarqueeLabel
+    - MBProgressHUD
+    - MessageKit
+    - Moya
+    - MWPhotoBrowser
+    - nanopb
+    - ObjectMapper
+    - OTPFieldView
+    - PagingCollectionViewLayout
+    - PromisesObjC
+    - QVRWeekView
+    - Realm
+    - RealmSwift
+    - RecaptchaInterop
+    - RxBinding
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SDWebImage
+    - SKPhotoBrowser
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - SocketRocket
+    - SpreadsheetView
+    - SquareFlowLayout
+    - Starscream
+    - SwiftAlgorithms
+    - SwiftSignalRClient
+    - TagListView
+    - VerticalCardSwiper
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  BmoViewPager: f06da0dd20d115e2ced117268465230d922624b7
+  Charts: ce0768268078eee0336f122c3c4ca248e4e204c5
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  Firebase: 63ce8ece0d43743dc28eacac0c6867a2d7fd5a9d
+  FirebaseAnalytics: 87513010b13b7c8610164d3602ea10571f76afc1
+  FirebaseAppCheckInterop: 37884781f3e16a1ba47e7ec80a1e805f987788e3
+  FirebaseAuth: 2492acdcd1245d841fabdf58a050d6aa07dfce3f
+  FirebaseAuthInterop: f90d6820bf6ecf44753b9f13ba941902d00b525a
+  FirebaseCore: dc5c7badf99d47613c52b2e3a57a64cd187f8554
+  FirebaseCoreExtension: c08d14c7b22e07994e876d837e6f58642f340087
+  FirebaseCoreInternal: b444828ea7cfd594fca83046b95db98a2be4f290
+  FirebaseDatabase: 0bec4d2f36e8d957dac82433f60486c9ec0fc6c1
+  FirebaseInstallations: 033d199474164db20c8350736842a94fe717b960
+  FirebaseSharedSwift: f34eeb7d3ea87a34497629b6ca41657beadef76a
+  FirebaseStorage: 1e0b9c9c18fb73ee3c5728a370c0e7355f8e88e3
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GoogleAppMeasurement: 68afe759316673c6554dac35a0c7ae8f5d6cb4ed
+  GoogleMaps: 54762190c9741867d03e4e4218672ab5a0a8096b
+  GooglePlaces: b922e192c50994436900ef14d19f84971950250b
+  GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
+  GTMSessionFetcher: 41b9ef0b4c08a6db4b7eb51a21ae5183ec99a2c8
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+  IQKeyboardManager: 024b54d7dcb765c5bc99882cb4d5ea24a8cb7c3c
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  JonAlert: a83b374ccbf1a14aeb25537d5a3cbe957aac1c2b
+  Kingfisher: 99edc495d3b7607e6425f0d6f6847b2abd6d716d
+  leveldb-library: f03246171cce0484482ec291f88b6d563699ee06
+  LNICoverFlowLayout: d7e1067f8f48ff4c7562d40bec23e18698b36353
+  MarqueeLabel: d2388949ac58d587303178d56a792ba8a001b037
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  PagingCollectionViewLayout: a75339d9fe45affc116b6770f37c884a8a5e9cd9
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  QVRWeekView: 8b68e870e17bd970f44a5a2017e0bd031c825af3
+  Realm: b277b843c7505c1e30e3a70322a24a09283e62bb
+  RealmSwift: f6690053e81733801e6619eb5b39993ab76f7050
+  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  RxBinding: e3c76d02d0ee3f1a306a0fb8e8ef6f2eda65a375
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  SKPhotoBrowser: cd95b95a6f352fc2a50992721299f75ead77f9ab
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Socket.IO-Client-Swift: ee4b8f80a3db18dd7f32b266ddf273310609443c
+  SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  SpreadsheetView: 688dbd19f2b355df0eb09e486266fd913a013449
+  SquareFlowLayout: cde3486d3086fb7f95b303d9b90bb86aa9dd98b5
+  Starscream: fb2c4510bebf908c62bd383bcf05e673720e91fd
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftSignalRClient: 2fa651ea18d47c5aaa135f0c8cf959239c845999
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
+  VerticalCardSwiper: 68df635b354500f86934ea044ade37a264c044c6
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+
+PODFILE CHECKSUM: 708d33e35d8762cec4ad7b621ab05dd06bf0fa3a
+
+COCOAPODS: 1.14.3
