@@ -67,7 +67,7 @@ extension NewFeedViewController {
        
             let dialogConfirm = DialogshowMessageViewController()
             dialogConfirm.view.backgroundColor = ColorUtils.blackTransparent()
-           
+        dialogConfirm.viewModel = viewModel.self
      
         
             let nav = UINavigationController(rootViewController: dialogConfirm)

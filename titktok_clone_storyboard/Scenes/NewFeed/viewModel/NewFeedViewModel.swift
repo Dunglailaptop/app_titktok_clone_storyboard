@@ -15,4 +15,5 @@ class NewFeedViewModel {
     private var router: NewFeedRouter?
     
     public var dataArray: BehaviorRelay<[Int]> = BehaviorRelay(value: [])
+    public var dataArrayMessgae: BehaviorRelay<[Int]> = BehaviorRelay(value: [1,1,1,1,1,1])
 }

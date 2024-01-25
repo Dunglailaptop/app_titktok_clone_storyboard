@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8F7F1B7679DA66D4F3E66C45 /* Pods_titktok_clone_storyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96553A1235E630DE1DAB97F /* Pods_titktok_clone_storyboard.framework */; };
+		B02E403E2B62A23B008F758F /* ItemMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E403C2B62A23B008F758F /* ItemMessageTableViewCell.swift */; };
+		B02E403F2B62A23B008F758F /* ItemMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02E403D2B62A23B008F758F /* ItemMessageTableViewCell.xib */; };
 		B063D3FF2B4C4DEB008670B5 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B063D3FD2B4C4DEB008670B5 /* SplashScreenViewController.swift */; };
 		B063D4002B4C4DEB008670B5 /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B063D3FE2B4C4DEB008670B5 /* SplashScreenViewController.xib */; };
 		B06D03C52B4C3DC200895D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D03C42B4C3DC200895D5A /* AppDelegate.swift */; };
@@ -61,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B02E403C2B62A23B008F758F /* ItemMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMessageTableViewCell.swift; sourceTree = "<group>"; };
+		B02E403D2B62A23B008F758F /* ItemMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemMessageTableViewCell.xib; sourceTree = "<group>"; };
 		B063D3FD2B4C4DEB008670B5 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		B063D3FE2B4C4DEB008670B5 /* SplashScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenViewController.xib; sourceTree = "<group>"; };
 		B06D03C12B4C3DC200895D5A /* titktok_clone_storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = titktok_clone_storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +139,15 @@
 				C96553A1235E630DE1DAB97F /* Pods_titktok_clone_storyboard.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02E403B2B62A223008F758F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				B02E403C2B62A23B008F758F /* ItemMessageTableViewCell.swift */,
+				B02E403D2B62A23B008F758F /* ItemMessageTableViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		B063D3F62B4C4D4D008670B5 /* Scenes */ = {
@@ -400,6 +413,7 @@
 		B0C330102B5D6FE00080A96F /* DialogshowMessage */ = {
 			isa = PBXGroup;
 			children = (
+				B02E403B2B62A223008F758F /* cell */,
 				B0C330112B5D70010080A96F /* DialogshowMessageViewController.swift */,
 				B0C330122B5D70010080A96F /* DialogshowMessageViewController.xib */,
 			);
@@ -562,6 +576,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02E403F2B62A23B008F758F /* ItemMessageTableViewCell.xib in Resources */,
 				B06D03D12B4C3DC400895D5A /* LaunchScreen.storyboard in Resources */,
 				B0C5FDC52B5D0B1600ED2E24 /* CollectionViewCell.xib in Resources */,
 				B0AE1DD92B51917B00488489 /* NewFeedViewController.xib in Resources */,
@@ -664,6 +679,7 @@
 				B0AE1DD22B5188AA00488489 /* MenuViewController.swift in Sources */,
 				B06D03C52B4C3DC200895D5A /* AppDelegate.swift in Sources */,
 				B0AE1DDE2B5191B400488489 /* NotificationViewController.swift in Sources */,
+				B02E403E2B62A23B008F758F /* ItemMessageTableViewCell.swift in Sources */,
 				B0C330132B5D70010080A96F /* DialogshowMessageViewController.swift in Sources */,
 				B0C5FDC12B5D01A400ED2E24 /* NewFeedRouter.swift in Sources */,
 				B0AE1DD82B51917B00488489 /* NewFeedViewController.swift in Sources */,

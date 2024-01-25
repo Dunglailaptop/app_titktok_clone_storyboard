@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DialogshowMessageViewController" customModule="titktok_clone_storyboard" customModuleProvider="target">
             <connections>
                 <outlet property="root_view" destination="AhL-NP-g4H" id="qC1-Ld-U3h"/>
+                <outlet property="tableview" destination="SmM-ZA-h8O" id="iDj-Hv-59v"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -50,19 +51,81 @@
                             </constraints>
                         </view>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="SmM-ZA-h8O">
-                            <rect key="frame" x="0.0" y="40" width="393" height="460"/>
+                            <rect key="frame" x="0.0" y="40" width="393" height="400"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Acb-F2-bfL">
+                            <rect key="frame" x="0.0" y="440" width="393" height="60"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ou-Rc-7Uo">
+                                    <rect key="frame" x="10" y="10" width="373" height="40"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Chat messgae" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DzW-Ow-4rY">
+                                            <rect key="frame" x="5" y="0.0" width="338" height="40"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.line" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ovE-U0-xHG">
+                                            <rect key="frame" x="343" y="6.3333333333333304" width="30" height="27.666666666666671"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="5XS-4L-b7T"/>
+                                                <constraint firstAttribute="width" constant="30" id="WJ8-DV-DgM"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="DzW-Ow-4rY" secondAttribute="bottom" id="6af-M1-3gS"/>
+                                        <constraint firstItem="ovE-U0-xHG" firstAttribute="centerY" secondItem="1ou-Rc-7Uo" secondAttribute="centerY" id="Cpr-QM-aNo"/>
+                                        <constraint firstItem="ovE-U0-xHG" firstAttribute="leading" secondItem="DzW-Ow-4rY" secondAttribute="trailing" id="R1T-8v-uUh"/>
+                                        <constraint firstItem="DzW-Ow-4rY" firstAttribute="top" secondItem="1ou-Rc-7Uo" secondAttribute="top" id="lH9-XX-TxK"/>
+                                        <constraint firstAttribute="trailing" secondItem="ovE-U0-xHG" secondAttribute="trailing" id="vLf-hO-YAy"/>
+                                        <constraint firstItem="DzW-Ow-4rY" firstAttribute="leading" secondItem="1ou-Rc-7Uo" secondAttribute="leading" constant="5" id="yzI-oc-w49"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" systemColor="systemGray6Color"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                            <size key="value" width="1" height="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                            <color key="value" systemColor="systemGray6Color"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="ArO-c4-9aA"/>
+                                <constraint firstItem="1ou-Rc-7Uo" firstAttribute="top" secondItem="Acb-F2-bfL" secondAttribute="top" constant="10" id="SSe-ty-zmb"/>
+                                <constraint firstAttribute="bottom" secondItem="1ou-Rc-7Uo" secondAttribute="bottom" constant="10" id="YZb-Yb-Cp2"/>
+                                <constraint firstAttribute="trailing" secondItem="1ou-Rc-7Uo" secondAttribute="trailing" constant="10" id="do4-Sd-IVd"/>
+                                <constraint firstItem="1ou-Rc-7Uo" firstAttribute="leading" secondItem="Acb-F2-bfL" secondAttribute="leading" constant="10" id="eNF-5t-Llz"/>
+                            </constraints>
+                        </view>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="500" id="1wU-Ty-65R"/>
                         <constraint firstItem="SlE-Sq-sMd" firstAttribute="top" secondItem="AhL-NP-g4H" secondAttribute="top" id="5et-qK-cL3"/>
+                        <constraint firstItem="Acb-F2-bfL" firstAttribute="leading" secondItem="AhL-NP-g4H" secondAttribute="leading" id="Fv5-VR-X5I"/>
+                        <constraint firstAttribute="trailing" secondItem="Acb-F2-bfL" secondAttribute="trailing" id="HYG-Bs-fHR"/>
                         <constraint firstAttribute="trailing" secondItem="SmM-ZA-h8O" secondAttribute="trailing" id="Sys-qb-nic"/>
-                        <constraint firstAttribute="bottom" secondItem="SmM-ZA-h8O" secondAttribute="bottom" id="bA6-9l-Sg1"/>
+                        <constraint firstAttribute="bottom" secondItem="Acb-F2-bfL" secondAttribute="bottom" id="Yav-bK-1ca"/>
                         <constraint firstItem="SmM-ZA-h8O" firstAttribute="leading" secondItem="AhL-NP-g4H" secondAttribute="leading" id="eNA-BB-fjf"/>
                         <constraint firstItem="SlE-Sq-sMd" firstAttribute="leading" secondItem="AhL-NP-g4H" secondAttribute="leading" id="nyI-vS-vB9"/>
                         <constraint firstItem="SmM-ZA-h8O" firstAttribute="top" secondItem="SlE-Sq-sMd" secondAttribute="bottom" id="rDq-jw-AjH"/>
+                        <constraint firstItem="Acb-F2-bfL" firstAttribute="top" secondItem="SmM-ZA-h8O" secondAttribute="bottom" id="tt9-1a-U7X"/>
                         <constraint firstAttribute="trailing" secondItem="SlE-Sq-sMd" secondAttribute="trailing" id="wWX-bG-SHT"/>
                     </constraints>
                 </view>
@@ -74,18 +137,19 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="AhL-NP-g4H" secondAttribute="bottom" id="qgQ-LY-lQF"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AhL-NP-g4H" secondAttribute="trailing" id="ts4-oR-TT7"/>
             </constraints>
-            <point key="canvasLocation" x="19" y="-11"/>
+            <point key="canvasLocation" x="17.557251908396946" y="-11.267605633802818"/>
         </view>
     </objects>
     <resources>
+        <image name="pencil.line" catalog="system" width="128" height="117"/>
         <systemColor name="separatorColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

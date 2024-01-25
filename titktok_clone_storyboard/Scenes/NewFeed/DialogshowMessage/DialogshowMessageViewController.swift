@@ -6,17 +6,25 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import RxRelay
 
 class DialogshowMessageViewController: UIViewController {
 
+    @IBOutlet weak var tableview: UITableView!
     @IBOutlet weak var root_view: UIView!
+    var viewModel = NewFeedViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTapOutSide(_:)))
             tapGesture.cancelsTouchesInView = false
             UIApplication.shared.windows.first?.addGestureRecognizer(tapGesture) // Attach to the window
+        resgiter()
+        bindingtable()
         // Do any additional setup after loading the view.
     }
+    
 
 
     @objc func handleTapOutSide(_ gesture: UITapGestureRecognizer) {
@@ -27,4 +35,17 @@ class DialogshowMessageViewController: UIViewController {
             }
         }
 
+}
+extension DialogshowMessageViewController {
+    func resgiter() {
+        let celltable = UINib(nibName: "ItemMessageTableViewCell", bundle: .main)
+        tableview.register(celltable, forCellReuseIdentifier: "ItemMessageTableViewCell")
+        tableview.separatorStyle = .none
+    }
+    func bindingtable() {
+        viewModel.dataArrayMessgae.bind(to: tableview.rx.items(cellIdentifier: "ItemMessageTableViewCell", cellType: ItemMessageTableViewCell.self)) {
+            (row,cell,data) in
+            
+        }
+    }
 }
